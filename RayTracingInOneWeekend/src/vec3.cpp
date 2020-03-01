@@ -44,7 +44,3 @@ inline vec3& vec3::operator/=(const float t) {
     e[2] *= k;
     return *this;
 }
-
-inline vec3 unit_vector(vec3 v) {
-    return v / v.length();
-}
